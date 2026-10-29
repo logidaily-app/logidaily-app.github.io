@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LogiDaily - 毎日3問の脳トレパズル</title>
-<meta name="description" content="LogiDaily は、毎日0時に3問のロジックパズルが届く iOS アプリです。世界中のプレイヤーが同じ盤面に挑戦します。">
+<title>せんろ - 毎日の線路パズル</title>
+<meta name="description" content="せんろは、駅Aから駅Bまで、すべてのマスを1回ずつ通る線路を敷く iOS のパズルアプリです。毎日1問、新しい路線が届きます。">
 <link rel="icon" href="app-icon.png">
 <style>
 :root{
@@ -35,33 +35,34 @@ footer{color:var(--sub);font-size:13px;margin-top:40px;text-align:center}
   <div class="logo">
     <img class="mark" src="app-icon.png" width="56" height="56" alt="">
     <div>
-      <h1>LogiDaily</h1>
-      <div class="tagline">毎日3問の、小さなロジック。</div>
+      <h1>せんろ (Senro)</h1>
+      <div class="tagline">毎日1本、線路を敷くパズル。</div>
     </div>
   </div>
   <div class="lang-link"><a href="#en" lang="en">English</a></div>
 
   <div class="card">
-    <h2>LogiDaily について</h2>
-    <p>LogiDaily は、毎日0時に3問のロジックパズルが届く iOS アプリです。世界中のプレイヤーが同じ盤面に挑戦します。</p>
+    <h2>せんろ (Senro) について</h2>
+    <p>せんろは、駅Aから駅Bまで、すべてのマスを1回ずつ通る線路を敷く iOS のパズルアプリです。毎日1問、新しい路線が届きます。</p>
     <ul>
-      <li><strong>パス一筆</strong> — 番号順に全マスを一筆書き</li>
-      <li><strong>スター配置</strong> — 各行・各列・各色に星を1つ</li>
-      <li><strong>バランス二択</strong> — 太陽と月を同数ずつ、3連続禁止</li>
+      <li><strong>白丸</strong> — 線路がまっすぐ通り抜ける</li>
+      <li><strong>黒丸</strong> — 線路がそこで曲がる</li>
+      <li><strong>曜日で難しく</strong> — 月曜の5×5各駅停車から、週末の7×7特急まで</li>
     </ul>
-    <p>ストリーク・Game Center ランキング・ウィジェット・過去7日のアーカイブで、毎日の習慣をサポートします。</p>
+    <p>2段階のヒント・大ヒント・連続日数・Game Center ランキング・ウィジェット・過去7日の路線で、毎日の習慣をサポートします。</p>
   </div>
 
   <div class="card">
     <h2>サポート</h2>
     <p>不具合のご報告・ご要望・ご質問は、下記メールアドレスまでお気軽にご連絡ください。</p>
-    <p><a href="mailto:app.info.kn@gmail.com?subject=LogiDaily%20%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">app.info.kn@gmail.com</a></p>
+    <p><a href="mailto:app.info.kn@gmail.com?subject=%E3%81%9B%E3%82%93%E3%82%8D%20%28Senro%29%20%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">app.info.kn@gmail.com</a></p>
     <p>よくある質問:</p>
     <ul>
-      <li><strong>問題は何時に更新されますか?</strong> — 毎日0時(端末のタイムゾーン)に新しい3問が届きます。</li>
+      <li><strong>問題は何時に更新されますか?</strong> — 毎日0時(端末のタイムゾーン)に新しい路線が届きます。</li>
       <li><strong>購入の復元は?</strong> — ホーム画面右上の王冠アイコンから開く Pro 画面の「購入を復元」から、いつでも復元できます。</li>
-      <li><strong>ストリークが途切れた</strong> — その日の3問すべてをクリアすると継続します。日付が変わる前にご確認ください。</li>
-      <li><strong>練習モードは何回遊べますか?</strong> — 無料では1日3回まで遊べます(クリアしたときだけ回数を使います)。広告を見ると1回追加でき、LogiDaily Pro では無制限です。</li>
+      <li><strong>大ヒントの残り回数が消えた</strong> — 大ヒント(消耗型)の残り回数はこの端末に保存されます。アプリを削除したり機種を変えたりすると引き継がれず、復元もできません(App Store の仕様)。</li>
+      <li><strong>連続日数が途切れた</strong> — その日の路線を開通させると続きます。日付が変わる前にご確認ください。</li>
+      <li><strong>練習は何回遊べますか?</strong> — 無料では1日3回まで遊べます(開通したときだけ回数を使います)。広告を見ると1回追加でき、せんろ Pro では無制限です。</li>
     </ul>
   </div>
 
@@ -75,26 +76,27 @@ footer{color:var(--sub);font-size:13px;margin-top:40px;text-align:center}
   <h2 class="section-lang" id="en" lang="en">English</h2>
   <div lang="en">
   <div class="card">
-    <h2>About LogiDaily</h2>
-    <p>LogiDaily is an iOS app that delivers three logic puzzles every day at midnight. Players around the world all take on the same boards.</p>
+    <h2>About せんろ (Senro)</h2>
+    <p>Senro is an iOS puzzle app: lay one railway track from Station A to Station B that passes through every square exactly once. A new line arrives every day.</p>
     <ul>
-      <li><strong>Path Trace</strong> — Draw one line through every cell, visiting the numbers in order</li>
-      <li><strong>Star Placement</strong> — One star in every row, column and color region</li>
-      <li><strong>Sun &amp; Moon</strong> — Equal suns and moons in each line, never three in a row</li>
+      <li><strong>White circle</strong> — The track goes straight through</li>
+      <li><strong>Black circle</strong> — The track turns there</li>
+      <li><strong>Harder through the week</strong> — From Monday&#x27;s 5×5 local train to the weekend&#x27;s 7×7 limited express</li>
     </ul>
-    <p>Streaks, Game Center leaderboards, widgets and a free archive of the past 7 days help you keep the habit going.</p>
+    <p>Two-step hints, the Big Hint, streaks, Game Center leaderboards, widgets and the past 7 days of lines help you keep the habit going.</p>
   </div>
 
   <div class="card">
     <h2>Support</h2>
     <p>For bug reports, feature requests or questions, please email us at the address below.</p>
-    <p><a href="mailto:app.info.kn@gmail.com?subject=LogiDaily%20inquiry">app.info.kn@gmail.com</a></p>
+    <p><a href="mailto:app.info.kn@gmail.com?subject=%E3%81%9B%E3%82%93%E3%82%8D%20%28Senro%29%20inquiry">app.info.kn@gmail.com</a></p>
     <p>FAQ:</p>
     <ul>
-      <li><strong>When do new puzzles arrive?</strong> — A new set of three puzzles arrives every day at midnight in your device&#x27;s time zone.</li>
+      <li><strong>When do new puzzles arrive?</strong> — A new line arrives every day at midnight in your device&#x27;s time zone.</li>
       <li><strong>How do I restore my purchase?</strong> — Tap the crown icon at the top right of the Home screen to open the Pro screen, then tap &quot;Restore Purchases&quot;.</li>
-      <li><strong>My streak was reset</strong> — Your streak continues when you clear all three of the day&#x27;s puzzles. Make sure to finish them before the date changes.</li>
-      <li><strong>How often can I play Practice Mode?</strong> — The free version gives you 3 plays a day, and a play is used only when you clear a board. You can watch an ad for one more play, and LogiDaily Pro makes it unlimited.</li>
+      <li><strong>My Big Hint uses disappeared</strong> — Big Hint uses (consumable) are stored on this device. They are not carried over if you delete the app or change devices, and they cannot be restored (an App Store rule for consumables).</li>
+      <li><strong>My streak was reset</strong> — Your streak continues when you open the day&#x27;s line. Make sure to finish it before the date changes.</li>
+      <li><strong>How often can I practice?</strong> — The free version gives you 3 plays a day, and a play is used only when you finish a board. You can watch an ad for one more play, and Senro Pro makes it unlimited.</li>
     </ul>
   </div>
 
@@ -106,7 +108,7 @@ footer{color:var(--sub);font-size:13px;margin-top:40px;text-align:center}
   </div>
   </div>
 
-  <footer>© 2026 Koya Nambo — LogiDaily</footer>
+  <footer>© 2026 Koya Nambo — せんろ (Senro)</footer>
 </div>
 </body>
 </html>
